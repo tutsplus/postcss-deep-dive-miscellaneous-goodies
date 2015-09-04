@@ -1,0 +1,18 @@
+{
+  "name": "gulppostcssstarter",
+  "version": "1.0.0",
+  "description": "Basic starter project for PostCSS use via Gulp",
+  "author": "Kezz Bracey",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rtlcss": "^0.1.4",
+    "lost": "^6.5.0",
+    "postcss-colorblind": "^0.3.0",
+    "postcss-pxtorem": "^3.0.0",
+    "postcss-style-guide": "^0.5.1",
+    "psg-theme-1column": "^0.2.0"
+  }
+}

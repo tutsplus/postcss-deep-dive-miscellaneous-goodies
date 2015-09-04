@@ -1,0 +1,171 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	font-family: "Open Sans";
+}
+
+html {
+	padding: 0;
+}
+
+body {
+	padding: 1.618rem;
+	background: #16a085;
+}
+
+.row {
+	*zoom: 1;
+	max-width: 75rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row:before {
+	content: '';
+	display: table;
+}
+
+.row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.main, .sidebar {
+	padding: 1.618rem;
+	min-height: 500px;
+}
+
+.main {
+	width: calc(99.99% * 3/5 - (1.618rem - 1.618rem * 3/5));
+	background: white;
+	color: #232323;
+}
+
+.main:nth-child(n) {
+	float: right;
+	margin-left: 1.618rem;
+	clear: none;
+}
+
+.main:last-child {
+	margin-left: 0;
+}
+
+.main:nth-child(5n) {
+	margin-left: 0;
+}
+
+.main:nth-child(5n + 1) {
+	clear: right;
+}
+
+.sidebar {
+	width: calc(99.99% * 2/5 - (1.618rem - 1.618rem * 2/5));
+	background: #2c3e50;
+	color: white;
+}
+
+.sidebar:nth-child(n) {
+	float: right;
+	margin-left: 1.618rem;
+	clear: none;
+}
+
+.sidebar:last-child {
+	margin-left: 0;
+}
+
+.sidebar:nth-child(5n) {
+	margin-left: 0;
+}
+
+.sidebar:nth-child(5n + 1) {
+	clear: right;
+}
+
+.row {
+	margin-bottom: 1.618rem;
+}
+
+section {
+	padding: 1rem;
+	background: white;
+}
+
+.convert_this {
+	width: 31.25rem;
+	font-size: 1.125rem;
+}
+
+/*
+This is the h1 style
+
+<h1>Heading 1</h1>
+
+*/
+
+h1 { font-size: 2.625rem; }
+
+/*
+These use the .tile class
+
+<div class="row">
+	<div class="tile">This is a Tile</div>
+	<div class="tile">This is a Tile</div>
+	<div class="tile">This is a Tile</div>
+	<div class="tile">This is a Tile</div>
+	<div class="tile">This is a Tile</div>
+</div>
+
+*/
+
+.tile {
+	width: calc(99.99% * 1/5 - (1.618rem - 1.618rem * 1/5));
+	padding: 3.75rem 1.618rem;
+	text-align: center;
+	font-size: 1.25rem;
+	color: white;
+}
+
+.tile:nth-child(n) {
+	float: right;
+	margin-left: 1.618rem;
+	clear: none;
+}
+
+.tile:last-child {
+	margin-left: 0;
+}
+
+.tile:nth-child(5n) {
+	margin-left: 0;
+}
+
+.tile:nth-child(5n + 1) {
+	clear: right;
+}
+
+.tile:nth-of-type(1) {
+	background: #f39c12;
+}
+
+.tile:nth-of-type(2) {
+	background: #c0392b;
+}
+
+.tile:nth-of-type(3) {
+	background: #8e44ad;
+}
+
+.tile:nth-of-type(4) {
+	background: #2980b9;
+}
+
+.tile:nth-of-type(5) {
+	background: #d35400;
+}
